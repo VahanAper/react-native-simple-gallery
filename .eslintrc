@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+      "no-unused-vars": 1,
+      "consistent-return": 0,
+      "func-names": 0,
+      "react/prefer-stateless-function": 0,
+      "class-methods-use-this": 0,
+      "max-len": ["error", 150],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    }
+}
